@@ -1,0 +1,33 @@
+/* Style for horizontal navbar */
+.hor-head {
+    margin-left: 190px;
+    margin-top: 50px;
+}
+.hor-nav {
+    list-style-type: none;
+    display: flex;
+    border: 1px solid black;
+    width: 21.5%;
+    padding: 10px;
+    margin-left: 100px;
+}
+
+.hor-nav li {
+    padding: 10px;
+    width: 60px;
+    border-right: 1px solid blue;
+}
+
+.hor-nav li:last-child {
+    border-right: none;
+}
+
+.grey {
+    background-color: grey;
+    color: white;
+}
+
+.light-grey {
+    background-color: #d7d8d9;
+    color: blue;
+}
